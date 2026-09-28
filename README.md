@@ -1,8 +1,8 @@
 # RDF2OS
 
-This folder contains the occupancy simulation and verification workflow used to generate, review, and validate occupancy assumptions for a building model.
+The library loads building space-by-space level details from a RDF semantic model, and creates a graphical user interface (GUI) for configuring occupant and space models. Model configurations are analyzed and verified by comparing simulation results against configuration expectations. This first version of the library supports the LBNL Occupancy modeling and simulation tool.
 
-The workflow is split into two related parts:
+The library is split into two related parts:
 
 1. Occupancy Simulation GUI
 2. Occupancy Verification
